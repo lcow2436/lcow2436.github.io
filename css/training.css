@@ -1,0 +1,38 @@
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    /* Border style */
+}
+
+caption {
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 10px;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+    /* Background color for header cells */
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+    /* Alternating row color */
+}
+
+tbody tr:hover {
+    background-color: #ddd;
+    /* Highlight row on hover */
+}
+
+section {
+    padding: 5vh 0;
+}
