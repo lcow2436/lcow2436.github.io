@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<!-- 
+Student Name: Vishwas Singhi
+Student ID: C0932646
+File: Term-Project contact.html
+-->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KSHARP - Contact Us</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <!-- Logo linking to Home Page -->
+            <a href="index.html"><img src="images/logo.png" alt="Company Logo" height="200" width="500"></a>
+        </header>
+        <div class="mobile">
+            <nav>
+                <!-- Navigation Bar -->
+                <a href="index.html">Home</a> &nbsp; &nbsp;
+                <a href="about.html">About</a> &nbsp; &nbsp;
+                <a href="team.html">Our Team</a> &nbsp; &nbsp;
+                <a href="specials.html">Specials</a> &nbsp; &nbsp;
+                <a href="training.html">Training</a> &nbsp; &nbsp;
+                <a href="media.html">Media</a> &nbsp; &nbsp;
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+        <main>
+            <div id="contact">
+            <h2>Wanna leave a message?</h2>
+                <!-- Form starts here -->
+            <form>
+                <fieldset>
+                    <legend>Contact Information</legend>
+
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name here" required autofocus size="20" />
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email here" required />
+
+                    <label for="date">Preferred Contact Date:</label>
+                    <input type="date" id="date" name="date" required />
+
+                    <label for="message">Your Message:</label>
+                    <textarea id="message" name="message" placeholder="Enter your message here" required></textarea>
+
+                    <div>
+                        <div class="inline-flex">
+                            <label>You are:</label>
+                            <input type="radio" id="male" name="gender" value="male" /><label
+                                for="male">Male</label>
+                            <input type="radio" id="female" name="gender" value="female" /><label
+                                for="female">Female</label>
+                        </div>
+                    </div>
+
+                    <label for="product">Product Interest:</label>
+                    <select id="product" name="product" required>
+                        <option value="">--Please choose an option--</option>
+                        <option value="Lamps">Electric</option>
+                        <option value="Accessories">Manual</option>
+                    </select>
+
+                    <div>
+                        <div class="inline-flex">
+                            <label for="newsletter">Subscribe for Daily Offers:</label>
+                            <input type="checkbox" id="newsletter" name="newsletter" value="Yes" />
+                        </div>
+                    </div>
+
+                    <button type="submit">Submit Request</button>
+                    <button type="reset">Reset Form</button>
+                </fieldset>
+            </form>
+            
+                <h2>Need other contact details? Contact us today.</h2>
+                <h4>Call us: (814) 555-9608</h4>
+                <h4>
+                    Email us:
+                    <a href="mailto:info@ksharp.com">info@ksharp.com</a>
+                </h4>
+                <h4>Visit us at: 800 Bank St, Ottawa, ON K1S 3V8</h4>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5602.657750936746!2d-75.69090822327779!3d45.40270733753887!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce05b8bd535be1%3A0xf637fd1835af8679!2sKnifewear%20Ottawa!5e0!3m2!1sen!2sca!4v1712862173926!5m2!1sen!2sca"
+                    width="600" height="450" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade" class="map"></iframe><br><br>
+            </div>
+        </main>
+
+        <footer>
+            <!-- Copyright and Information Lines -->
+            &copy; Copyright 2024. All Rights Reserved.<br>
+            <a href="mailto:info@ksharp.com">info@ksharp.com</a><br>
+            Vishwas Singhi &nbsp; &nbsp; C0932646
+        </footer>
+</body>
+
+</html>
