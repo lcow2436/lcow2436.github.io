@@ -14,7 +14,7 @@ li{
 
 /* Desktop styles */
 .mobile {
-    display: none;
+    display: block;
 }
 
 /* Mobile styles */
