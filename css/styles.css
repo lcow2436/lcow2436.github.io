@@ -27,8 +27,6 @@ body {
 
 /* Header styling */
 header {
-  /* display: inline-block; */
-  /* background: linear-gradient(to right, #614872, #02ff70); */
   background-color: rgb(255, 255, 255);
   margin: 5px 0;
   border-radius: 10px;
@@ -52,6 +50,7 @@ header img {
   .tablet nav{
     display: none;
   }
+  
 }
 nav {
   background-color: #333; /* Background color */

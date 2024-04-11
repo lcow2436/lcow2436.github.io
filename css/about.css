@@ -12,12 +12,12 @@ li{
     padding: 20px;
 }
 
-/* Mobile styles */
+/* Desktop styles */
 .mobile {
     display: none;
 }
 
-/* Tablet styles */
+/* Mobile styles */
 @media only screen and (min-width: 600px) {
     .mobile {
         display: block;
@@ -27,7 +27,7 @@ li{
     }
 }
 
-/* Desktop styles */
+/* Tablet styles */
 @media only screen and (min-width: 1024px) {
     .tablet {
         display: block;
